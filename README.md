@@ -35,6 +35,9 @@ All code and data are generic and synthetic, developed independently. Parts of
 this code were drafted with AI assistance and reviewed, tested, and adapted by
 the author.
 
+## Requirements 
+Tested with Python 3.13.3
+
 ## License
 
 MIT (see LICENSE)
