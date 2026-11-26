@@ -9,13 +9,14 @@ forest) for scheduled integrations between legacy and modern systems.
 Integration failures in legacy environments can silently interrupt critical
 business processes while leaving operators with incomplete or delayed signals.
 Consistent monitoring makes missed executions, SLA degradation, and failures
-visible early, improving recovery time and confidence in cross-system data flow.
+visible early, which can help reduce recovery time and increase confidence in 
+cross-system data flow.
 
 ## How it works
 
 - Synthetic data generator (no real or proprietary data)
 - Rule engine: `skipped`, `sla_breach`, `error`
-- Anomaly detection: robust z-score per hour of day and isolation forest
+- Anomaly detection: robust z-score per integration and hour of day
 
 ## Run
 
@@ -36,4 +37,4 @@ the author.
 
 ## License
 
-MIT
+MIT (see LICENSE)
